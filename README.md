@@ -41,7 +41,7 @@ fpgrowth, association_rules, TransactionEncoder), matplotlib, seaborn.
 
 ## Pipeline
 
-See the [code/](./code) folder for all notebooks.
+See the [notebooks/](./notebooks) folder for all notebooks.
 
 | Notebook | Description |
 |---|---|
