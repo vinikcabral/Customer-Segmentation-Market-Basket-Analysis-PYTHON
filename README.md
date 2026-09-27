@@ -57,12 +57,26 @@ cd Customer-Segmentation-Market-Basket-Analysis-PYTHON
 pip install -r requirements.txt
 ```
 
-**2. Download the dataset:**
+**Requirements:** Python 3.12
+
+**2. Decompress the datasets:**
+The processed datasets are provided as `.zip` files in `datasets/` due to file size. Unzip them into 
+the same folder before running the notebooks:
+```bash
+cd datasets
+unzip 01_cleaned_data.zip
+unzip 01_rfm_df.zip
+unzip 02_clustered_customers.zip
+unzip 02_customer_segments.zip
+cd ..
+```
+
+**3. Download the raw dataset:**
 Download the "Online Retail II" dataset from the 
 [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/502/online+retail+ii), 
 and place the file in the `datasets/` folder.
 
-**3. Run the notebooks in order:**
+**4. Run the notebooks in order:**
 Run `code/00_preparing_data.ipynb` through `code/03_market_basket_analysis.ipynb` 
 sequentially — each notebook reads the output of the one before it.
 
