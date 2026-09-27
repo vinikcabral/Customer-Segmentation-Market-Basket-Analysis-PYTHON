@@ -83,15 +83,6 @@ Run the notebooks in [code/](./code) from `00_preparing_data.ipynb` through
 `03_market_basket_analysis.ipynb` sequentially — each notebook reads the output 
 of the one before it.
 
-**3. Download the raw dataset:**
-Download the "Online Retail II" dataset from the 
-[UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/502/online+retail+ii), 
-and place the file in the `datasets/` folder.
-
-**4. Run the notebooks in order:**
-Run `code/00_preparing_data.ipynb` through `code/03_market_basket_analysis.ipynb` 
-sequentially — each notebook reads the output of the one before it.
-
 ## Key Insights
 
 - K-Means clustering identified **4 core segments** based on RFM behaviour; 
