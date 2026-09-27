@@ -109,7 +109,7 @@ understand customer purchasing behaviour.
 
 ## Full Report
 
-See [Report.pdf](./Report.pdf) for the complete methodology, literature 
+See [report.pdf](./report.pdf) for the complete methodology, literature 
 review, and results.
 
 ## Author
